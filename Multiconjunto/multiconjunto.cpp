@@ -1,5 +1,7 @@
 #include "multiconjunto.h"
 #include <iostream>
+#include <string>
+#include "persona.h"
 
 using namespace std;
 
@@ -8,6 +10,7 @@ template <typename T>
 bool Multiconjunto<T>::esVacio() const {
 
     return (num ==0);
+
 }
 
 template <typename T>
@@ -76,3 +79,7 @@ bool Multiconjunto<T>::pertenece(const T& objeto) const {
     }
 
 }
+
+template class Multiconjunto<Persona>;
+template class Multiconjunto<int>;
+template class Multiconjunto<char>;

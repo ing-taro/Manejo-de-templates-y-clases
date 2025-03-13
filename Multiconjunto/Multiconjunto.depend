@@ -5,3 +5,21 @@
 1741545945 c:\users\neiza\onedrive\escritorio\uni (segundo)\edii\multiconjunto\multiconjunto.h
 	<windows.h>
 
+1741698489 source:c:\users\neiza\onedrive\escritorio\uni (segundo)\edii\practica1\multiconjunto\multiconjunto.cpp
+	"multiconjunto.h"
+	<iostream>
+	<string>
+	"persona.h"
+
+1741545945 c:\users\neiza\onedrive\escritorio\uni (segundo)\edii\practica1\multiconjunto\multiconjunto.h
+	<windows.h>
+
+1741696933 c:\users\neiza\onedrive\escritorio\uni (segundo)\edii\practica1\multiconjunto\include\persona.h
+	<string>
+	<iostream>
+
+1741698922 source:c:\users\neiza\onedrive\escritorio\uni (segundo)\edii\practica1\multiconjunto\src\persona.cpp
+	"persona.h"
+	<string>
+	<iostream>
+
