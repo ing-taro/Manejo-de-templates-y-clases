@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1742228237 source:c:\users\neiza\onedrive\escritorio\uni (segundo)\edii\practica1\ed2\usuario_prac1\main.cpp
+	"multiconjunto.h"
+	"persona.h"
+	<iostream>
+
+1741545945 c:\users\neiza\onedrive\escritorio\uni (segundo)\edii\practica1\ed2\usuario_prac1\multiconjunto.h
+	<windows.h>
+
+1741696933 c:\users\neiza\onedrive\escritorio\uni (segundo)\edii\practica1\ed2\usuario_prac1\persona.h
+	<string>
+	<iostream>
+

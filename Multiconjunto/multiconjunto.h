@@ -28,4 +28,5 @@ int num;
  // Indica el número de elementos en el multiconjunto
 };
 
+
 #endif
