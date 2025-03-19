@@ -2,6 +2,8 @@
 #include "persona.h"
 #include <iostream>
 
+using namespace std;
+
 int main() {
 
     Multiconjunto<int> mcInt;
@@ -10,7 +12,7 @@ int main() {
 
     mcInt.anade(20);
 
-    std::cout << "Cardinalidad (int): " << mcInt.cardinalidad() << std::endl;
+    cout << "Cardinalidad (int): " << mcInt.cardinalidad() << endl;
 
 
     Multiconjunto<char> mcChar;
@@ -19,7 +21,7 @@ int main() {
 
     mcChar.anade('b');
 
-    std::cout << "Pertenece 'a'? " << mcChar.pertenece('a') << std::endl;
+    cout << "Pertenece 'a'? " << mcChar.pertenece('a') << endl;
 
 
     Multiconjunto<Persona> mcPersona;
@@ -32,7 +34,7 @@ int main() {
 
     mcPersona.anade(p2);
 
-    std::cout << "Pertenece Juan? " << mcPersona.pertenece(p2) << std::endl;
+    cout << "Pertenece Juan? " << mcPersona.pertenece(p2) << endl;
 
     return 0;
 }

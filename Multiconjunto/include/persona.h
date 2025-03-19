@@ -18,4 +18,4 @@ class Persona
  int edad;
 };
 
-#endif // PERSONA_H
+#endif

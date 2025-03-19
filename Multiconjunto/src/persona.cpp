@@ -1,25 +1,27 @@
 #include "persona.h"
 #include <string>
 
+using namespace std;
 
-Persona::Persona(const std::string& n, int e) : nombre(n), edad(e) {}
 
-const std::string& Persona::getNombre() const {
-    return nombre;
+Persona::Persona(const string& n, int e) : nombre(n), edad(e) {}
+
+const string& Persona::getNombre() const {
+    return this->nombre;
 }
 
 int Persona::getEdad() const {
-    return edad;
+    return this->edad;
 }
 
-void Persona::setNombre(const std::string& n) {
-    nombre = n;
+void Persona::setNombre(const string& n) {
+    this->nombre = n;
 }
 
 void Persona::setEdad(int e) {
-    edad = e;
+    this->edad = e;
 }
 
 bool Persona::operator==(const Persona& p) const {
-    return (nombre == p.nombre && edad == p.edad);
+    return (this->nombre == p.nombre && this->edad == p.edad);
 }
